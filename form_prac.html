@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML_Forms</title>
+</head>
+
+<body>
+  <br>
+  <form class="" action="HTML_Forms.html" method="post" autocomplete="on">
+    <label>My Form</label>
+    <br>
+    <input type="date" name="" value="">
+    <br>
+    <input type="file" name="" value="">
+    <br>
+    <input type="radio" name="" value="">
+    <br>
+    <input type="email" name="" value="">
+    <br>
+    <br>
+    <label>Ice creams flavor</label>
+    <input list="ice-cream-flavors">
+    <datalist id="ice-cream-flavors">
+      <option value="chocolate"></option>
+      <option value="vanilla"></option>
+      <option value="strawberry"></option>
+      <option value="Mint"></option>
+    </datalist>
+  </form>
+
+  <fieldset>
+    <legend>Your Anime</legend>
+    <input type="radio" name="Anime" id="Ben10">
+    <label for="Ben10">Ben10</label>
+    <input type="radio" name="Anime" id="DragonBallZ">
+    <label for="DragonBallZ">Dragon Ball Z</label>
+    <input type="radio" name="Anime" id="Naruto">
+    <label for="naruto">Naruto</label>
+  </fieldset>
+  <br>
+  <form class="" action="form_prac.html" method="post">
+    <label for="">Image</label>
+    <input type="image" id="image" alt="login" src="images/circle-cropped.png" width="32" , height="32">
+  </form>
+
+
+  <form class="" action="index.html" method="post">
+    <input type="range" id="volume" value="4" min="0" max="11" step="1" list="range">
+    <label for="volume">Volume</label>
+    <datalist id="volume">
+      <option value="2" </option>
+      <option value="4" </option>
+      <option value="6" </option>
+      <option value="8" </option>
+      <option value="10" </option>
+    </datalist>
+    <br>
+    <br>
+    <select>
+      <optgroup label="Group 1">
+        <option>Option 1.1</option>
+      </optgroup>
+      <optgroup label="Group 2">
+        <option>Option 2.1</option>
+        <option>Option 2.2</option>
+      </optgroup>
+      <optgroup label="Group 3" disabled>
+        <option>Option 3.1</option>
+        <option>Option 3.2</option>
+        <option>Option 3.3</option>
+      </optgroup>
+    </select>
+  </form>
+
+</html>
